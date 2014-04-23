@@ -4,6 +4,7 @@ Setup
 =====
 
 bin/supervisord
+bin/devpi use http://localhost:3141/
 bin/devpi login root --password=
 bin/devpi user -c plone password=plone
 bin/devpi login plone --password=plone
